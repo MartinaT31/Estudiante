@@ -1,0 +1,49 @@
+###########################################################################################
+Comandos node
+###########################################################################################
+
+# npm init -y
+# npm install express --save
+# npm install express-handlebars --save
+# npm install mysql --save
+# npm install knex --save
+
+node --watch app.js
+
+#npm install express express-handlebars mysql knex --save
+
+npm install
+
+
+#########################################################################################
+Comandos git
+#########################################################################################
+
+#Clonar repositorio
+git clone url
+
+#Estado del respositorio
+git status
+
+#Controlar una versión
+git add .
+git commit -m "mensaje referente a los cambios realizados"
+git push
+
+#Crear una rama
+git branch nombre_rama
+
+#Movernos a una rama
+git checkout nombre_rama
+
+#Eliminar una rama
+git branch -D nombre_rama
+
+#Fusionar ramas, se debe estar en la rama principal para realizar la fusión
+git merge nombre rama
+
+#Actualizar rama principal
+git push origin main
+
+#Actualizar repositorio
+git pull
